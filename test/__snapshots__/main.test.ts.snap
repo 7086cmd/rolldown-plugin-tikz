@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`tikz > should be handled as base64 1`] = `
+"import assert from "node:assert";
+
+//#region test/example.tikz
+var example_default = "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"38.47\\" height=\\"38.47\\" viewBox=\\"-72 -72 28.853 28.853\\"><path fill=\\"none\\" stroke=\\"#000\\" stroke-miterlimit=\\"10\\" stroke-width=\\".4\\" d=\\"m-72.07-43.617 28.453-28.453\\"/></svg>";
+
+//#endregion
+//#region test/index.js
+assert(typeof example_default === "string");
+
+//#endregion"
+`;
+
+exports[`tikz > should be handled as dataurl 1`] = `
+"import assert from "node:assert";
+
+//#region test/example.tikz
+var example_default = "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"38.47\\" height=\\"38.47\\" viewBox=\\"-72 -72 28.853 28.853\\"><path fill=\\"none\\" stroke=\\"#000\\" stroke-miterlimit=\\"10\\" stroke-width=\\".4\\" d=\\"m-72.07-43.617 28.453-28.453\\"/></svg>";
+
+//#endregion
+//#region test/index.js
+assert(typeof example_default === "string");
+
+//#endregion"
+`;
+
+exports[`tikz > should be handled default as text 1`] = `
+"import assert from "node:assert";
+
+//#region test/example.tikz
+var example_default = "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"38.47\\" height=\\"38.47\\" viewBox=\\"-72 -72 28.853 28.853\\"><path fill=\\"none\\" stroke=\\"#000\\" stroke-miterlimit=\\"10\\" stroke-width=\\".4\\" d=\\"m-72.07-43.617 28.453-28.453\\"/></svg>";
+
+//#endregion
+//#region test/index.js
+assert(typeof example_default === "string");
+
+//#endregion"
+`;
