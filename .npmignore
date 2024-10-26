@@ -5,3 +5,4 @@ test
 tsconfig.json
 package-lock.json
 .npmrc
+.idea
